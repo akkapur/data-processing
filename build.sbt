@@ -16,7 +16,8 @@ libraryDependencies ++= Seq(
 resolvers += "scalaz-bintray" at "http://dl.bintray.com/scalaz/releases"
 
 libraryDependencies ++= Seq(
-  "org.apache.tika" % "tika" % "1.11",
+  "org.apache.tika" % "tika-core" % "1.11",
+  "org.apache.tika" % "tika-parsers" % "1.11",
   "org.scalatest" % "scalatest_2.11" % "2.2.4" % "test",
   "org.mockito" % "mockito-core" % "1.10.19"
 )
